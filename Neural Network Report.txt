@@ -16,7 +16,7 @@ I used relu as an activation function because I felt the data was close to a lin
 
 I was able to achieve the model to perform at 72% accuracy. 
 
-In efforts to optimize the model I applied my knowledge of ETL. I placed the column *ASK_AMT* into bins to reduce the number of unique data and applied get_dummies to have a return on *"0" and "1"*. 
+In efforts to optimize the model I applied my knowledge of ETL. I placed the column ASK_AMT into bins to reduce the number of unique data and applied get_dummies to have a return on "0" and "1". 
 After a few attempts I removed the "other" columns for the Later I ran a tuner to determine what is the best model.
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
